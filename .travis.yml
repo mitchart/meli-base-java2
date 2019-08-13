@@ -1,4 +1,4 @@
 language: java
 jdk:
   - oraclejdk11
-script: "./build.sh"
+script: "mvn clean test"
